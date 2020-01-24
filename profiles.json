@@ -1,0 +1,97 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+    
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false,
+            "fontFace": "Fira Code Retina"
+        },
+
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false,
+            "fontFace": "Fira Code Retina"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        },
+        {
+            "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+            "hidden": false,
+            "name": "Ubuntu-18.04",
+            "source": "Windows.Terminal.Wsl",
+            "cursorColor": "#E95420",
+            "cursorShape": "filledBox",
+            "fontFace": "Fira Code Retina",
+            "colorScheme": "Solarized-Dark"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+          {
+            "name": "Solarized-Dark",
+            "black": "#073642",
+            "red": "#dc322f",
+            "green": "#859900",
+            "yellow": "#b58900",
+            "blue": "#268bd2",
+            "purple": "#d33682",
+            "cyan": "#2aa198",
+            "white": "#eee8d5",
+            "brightBlack": "#002b36",
+            "brightRed": "#cb4b16",
+            "brightGreen": "#586e75",
+            "brightYellow": "#657b83",
+            "brightBlue": "#839496",
+            "brightPurple": "#6c71c4",
+            "brightCyan": "#93a1a1",
+            "brightWhite": "#fdf6e3",
+            "background": "#002b36",
+            "foreground": "#839496"
+          },
+          {
+            "name": "Solarized-Light",
+            "black": "#073642",
+            "red": "#dc322f",
+            "green": "#859900",
+            "yellow": "#b58900",
+            "blue": "#268bd2",
+            "purple": "#d33682",
+            "cyan": "#2aa198",
+            "white": "#eee8d5",
+            "brightBlack": "#002b36",
+            "brightRed": "#cb4b16",
+            "brightGreen": "#586e75",
+            "brightYellow": "#657b83",
+            "brightBlue": "#839496",
+            "brightPurple": "#6c71c4",
+            "brightCyan": "#93a1a1",
+            "brightWhite": "#fdf6e3",
+            "background": "#fdf6e3",
+            "foreground": "#657b83"
+          }
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
