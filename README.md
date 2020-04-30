@@ -12,5 +12,7 @@ dark will do the same for Solarized Dark
 
 
 ## Additional info
-F10 will run the command Light
-F11 will run the command dark
+It seems that profiles.json was renamed settings.json
+
+This may be different and depends on your windows version?  I don't know.  The easiest way to check what it's called on your version
+is to open WindowsTerminal and click on the down arrow icon next to the + sign in the top section of WindowsTerminal and click on settings, this action will open the file that actually controls the look and feel of WindowsTerminal
