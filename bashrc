@@ -33,10 +33,10 @@ bind '"jk":vi-movement-mode'
 
 # Windows Terminal WSL
 #Create light command to change the theme color to Solarized Light
-alias light='sed -i '"'"'s/"colorScheme": "Solarized-Dark"/"colorScheme": "Solarized-Light"/g'"'"' /mnt/c/Users/Antonio/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/profiles.json' 
+alias light='sed -i '"'"'s/"colorScheme": "Solarized-Dark"/"colorScheme": "Solarized-Light"/g'"'"' /mnt/c/Users/Antonio/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json' 
 
 #Create dark command to change the theme color to Solarized Dark
-alias dark='sed -i '"'"'s/"colorScheme": "Solarized-Light"/"colorScheme": "Solarized-Dark"/g'"'"' /mnt/c/Users/Antonio/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/profiles.json'
+alias dark='sed -i '"'"'s/"colorScheme": "Solarized-Light"/"colorScheme": "Solarized-Dark"/g'"'"' /mnt/c/Users/Antonio/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json'
    
 # Alt-l bind the ALT and lowercase L to the command light  
 bind '"\el":"light\n"' 
